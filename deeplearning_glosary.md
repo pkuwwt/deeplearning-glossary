@@ -106,7 +106,7 @@ Adadelta是一种基于梯度下降的学习算法，它允许每个参数的学
 
 ## seq2seq
 
-## 随机梯度下降 (Stochastic Gradient Descent, SGD) <a id="SGD"></a>
+## 随机梯度下降 (Stochastic Gradient Descent, SGD) <a id="sgd"></a>
 
 ## Softmax
 
