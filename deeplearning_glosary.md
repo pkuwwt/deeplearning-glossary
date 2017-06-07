@@ -3,12 +3,10 @@
 [//]: <> http://www.wildml.com/deep-learning-glossary/
 
 ## 激活函数(Activation Function)
-
-### sigmoid
-
-### ReLU
+如果神经网络中全是线性函数，总的效果也只会是线性函数。因此，为了模拟非线性行为，必须在神经网络中使用非线性激活函数。常用的激活函数包括[sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function)，[tanh](http://mathworld.wolfram.com/HyperbolicTangent.html)，[ReLU](#relu)及相关的变体。
 
 ## Adadelta
+Adadelta是一种基于梯度下降的学习算法，它允许每个参数的学习速率随时间自适应变化。Adadelta是[Adagrad](#adagrad)的一种改进，避免了对超参数过于敏感和过多地减小学习速率。Adadelta类似于[rmsprop](#rmsprop)，可用于替代平凡的[SGD](#sgd)。
 
 ## Adagrad
 
